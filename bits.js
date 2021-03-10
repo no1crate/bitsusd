@@ -1,0 +1,1 @@
+let bits = getParameterByName('bits');
