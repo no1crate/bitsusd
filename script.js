@@ -3,7 +3,7 @@ let valoresScript = {
   usd: 100
 }
 function submitBITS(){
-  bits = document.getElementById(bits).value;
+  bits = document.getElementById('bits').value;
   if(bits<0){
   console.log("No puedes poner un numero menor a 0!")
   } else {
@@ -13,7 +13,7 @@ function submitBITS(){
   }
 }
 function submitUSD(){
-  usd = document.getElementById(usd).value;
+  usd = document.getElementById('usd').value;
   if(usd<0.01){
   console.log("No puedes poner un numero menor a 0.01!")
   } else {
