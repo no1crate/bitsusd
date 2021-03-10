@@ -18,6 +18,7 @@ function submitUSD(){
   console.log("No puedes poner un numero menor a 0.01!")
   } else {
   bits = valoresScript.usd * usd;
+  bits = bits.replace('.', '')
   document.getElementById('resultado').innerHTML = bits + " bit/s";
   }
 }
