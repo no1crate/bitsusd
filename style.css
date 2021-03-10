@@ -1,0 +1,18 @@
+#converter{
+  background-color: #fafafa;
+  margin: 1rem;
+  padding: 1rem;
+  border: 2px solid #ccc;
+}
+body{
+  text-align: center;
+}
+#resultado{
+  font-size: 30px;
+}
+#toUSD{
+  background-color: #03fc41;
+}
+#toBITS{
+  background-color: #dd00fa;
+}
